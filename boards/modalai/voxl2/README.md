@@ -23,6 +23,9 @@ The full instructions are available here:
 ## Build overview
 
 - Clone the repo (Don't forget to update and initialize all submodules)
+```
+git submodule update --init --recursive
+```
 - In the top level directory
 ```
 px4$ boards/modalai/voxl2/scripts/run-docker.sh
